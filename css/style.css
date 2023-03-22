@@ -44,7 +44,7 @@ section {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
+    padding: 1rem 9%;
     background: var(--bg-color);
     display: flex;
     justify-content: space-between;
@@ -496,6 +496,7 @@ spannn {
     }
 
     .home {
+        margin-top: 4rem;
         flex-direction: column;
     }
 
@@ -548,12 +549,21 @@ spannn {
     .portfolio-container {
         grid-template-columns: 1fr;
     }
+
+    .home {
+        margin-top: 4rem;
+    }
+
 }
 
 
 @media (max-width: 450px) {
     html {
         font-size: 50%;
+    }
+
+    .home {
+        margin-top: 4rem;
     }
 
     .contact form .input-box input {
@@ -573,6 +583,8 @@ spannn {
     .about-img img {
         width: 90vw;
     }
+    
+
 
     .footer {
         flex-direction: column-reverse;
@@ -583,3 +595,4 @@ spannn {
         margin-top: 2rem;
     }
 }
+
