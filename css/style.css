@@ -562,6 +562,10 @@ spannn {
 }
 
 @media (max-width: 365px) {
+    .home {
+        margin-top: 4rem;
+    }
+    
     .home-img img {
         width: 90vw;
     }
